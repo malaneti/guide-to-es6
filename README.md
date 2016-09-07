@@ -4,6 +4,7 @@ Key Features in ES6
 
 
 1)Arrow functions – A short-hand version of an anonymous function.
+    -simplify function scoping and the this keyword
 
     ex: var multiply = (x, y) => x*y;
 
