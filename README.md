@@ -1,4 +1,4 @@
-# guide-to-es6
+# guide-to-es6 with react
 
 Key Features in ES6
 
