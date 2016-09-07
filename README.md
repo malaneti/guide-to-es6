@@ -5,6 +5,8 @@ Key Features in ES6
 
 1)Arrow functions – A short-hand version of an anonymous function.
 
+ex: var multiply = (x, y) => x*y;
+
 2)Block-level scope – ES6 now supports scoping variables to blocks (if, for, while, etc.) using the let keyword.
 
 3)Classes – ES6 classes provide a way to encapsulate and extend code.
