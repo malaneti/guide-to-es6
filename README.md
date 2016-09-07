@@ -8,10 +8,23 @@ Key Features in ES6
     -simplify function scoping and the this keyword
     -avoid having to type the function keyword, return keyword (it’s implicit in arrow functions), and curly brackets.
     -Because arrow functions allow you to retain the scope of the caller inside the function, you don’t need to create self =     this closures or use bind.
+    
 
 
     ex: var multiply = (x, y) => x*y;
     ex: smartPhones.map(smartPhone=>smartPhone.price)
+    ex: // Manually bind, wherever you need to
+    class PostInfo extends React.Component {
+      constructor(props) {
+        super(props);
+        // Manually bind this method to the component instance...
+        this.handleOptionsButtonClick = this.handleOptionsButtonClick.bind(this);
+      }
+      handleOptionsButtonClick(e) {
+        // ...to ensure that 'this' refers to the component instance here.
+        this.setState({showOptionsModal: true});
+      }
+    }
 
 
 2)Block-level scope – ES6 now supports scoping variables to blocks (if, for, while, etc.) using the let keyword.
