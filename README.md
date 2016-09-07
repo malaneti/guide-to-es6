@@ -8,7 +8,10 @@ Key Features in ES6
     -simplify function scoping and the this keyword
     -avoid having to type the function keyword, return keyword (it’s implicit in arrow functions), and curly brackets.
 
+
     ex: var multiply = (x, y) => x*y;
+    ex: smartPhones.map(smartPhone=>smartPhone.price)
+
 
 2)Block-level scope – ES6 now supports scoping variables to blocks (if, for, while, etc.) using the let keyword.
 
