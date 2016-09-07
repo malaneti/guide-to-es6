@@ -4,6 +4,7 @@ Key Features in ES6
 
 
 1)Arrow functions – A short-hand version of an anonymous function.
+    
     -simplify function scoping and the this keyword
     -avoid having to type the function keyword, return keyword (it’s implicit in arrow functions), and curly brackets.
 
