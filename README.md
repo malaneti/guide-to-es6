@@ -7,6 +7,7 @@ Key Features in ES6
     
     -simplify function scoping and the this keyword
     -avoid having to type the function keyword, return keyword (it’s implicit in arrow functions), and curly brackets.
+    -Because arrow functions allow you to retain the scope of the caller inside the function, you don’t need to create self =     this closures or use bind.
 
 
     ex: var multiply = (x, y) => x*y;
