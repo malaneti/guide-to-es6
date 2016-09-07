@@ -21,7 +21,7 @@ Key Features in ES6
 3)Classes – ES6 classes provide a way to encapsulate and extend code.
 
     ex: class Photo extends React.Component {
-  render() {
+    render() {
     return <img alt={this.props.caption} src={this.props.src} />;
   }
 }
