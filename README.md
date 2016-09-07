@@ -9,6 +9,8 @@ ex: var multiply = (x, y) => x*y;
 
 2)Block-level scope – ES6 now supports scoping variables to blocks (if, for, while, etc.) using the let keyword.
 
+ex. use let instead of var 
+
 3)Classes – ES6 classes provide a way to encapsulate and extend code.
 
 4)Constants – You can now define constants in ES6 code using the const keyword.
