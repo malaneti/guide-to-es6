@@ -16,9 +16,15 @@ Key Features in ES6
 
 2)Block-level scope – ES6 now supports scoping variables to blocks (if, for, while, etc.) using the let keyword.
 
-    ex. use let instead of var 
+    ex: use let instead of var 
 
 3)Classes – ES6 classes provide a way to encapsulate and extend code.
+
+    ex: class Photo extends React.Component {
+  render() {
+    return <img alt={this.props.caption} src={this.props.src} />;
+  }
+}
 
 4)Constants – You can now define constants in ES6 code using the const keyword.
 
