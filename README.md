@@ -13,7 +13,8 @@ Key Features in ES6
 
     ex: var multiply = (x, y) => x*y;
     ex: smartPhones.map(smartPhone=>smartPhone.price)
-    ex: // Manually bind, wherever you need to
+    ex: 
+    // Manually bind, wherever you need to
     class PostInfo extends React.Component {
       constructor(props) {
         super(props);
